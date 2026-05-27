@@ -146,4 +146,4 @@ Returned tensors:
 
 ## Citation
 
-Add the paper citation here once the final BibTeX entry is available.
+
