@@ -1,0 +1,14 @@
+﻿[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vlts-avss"
+version = "0.1.0"
+description = "PyTorch implementation of VLTS-Net for Visual-Conditioned Low-Rank Target Subspace Decomposition for Audio-Visual Speech Separation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+
+[tool.setuptools.packages.find]
+include = ["vlts_net*"]
